@@ -52,11 +52,6 @@ The System seamlessly integrates various cutting-edge technologies to create a r
 ## Deployment
 
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-
 ### Copyrights
 
 >Copyright (c) 2022-2023 Faculty of Computers and Informatics Tanta University 
