@@ -6,7 +6,7 @@
 ![Project Maquette](images/maquette.jpg)
 
 
-## Overview
+## Project Overview
 
 Janus Automated Road Gates System is a graduation project that aims to resolve the manual road toll collection issues in Egypt, managed by human workers.
 
@@ -19,6 +19,17 @@ The System seamlessly integrates various cutting-edge technologies to create a r
 - **Backend**: The backend system, acts as the central hub for data storage, communication, and coordination. It handles API requests from the mobile app and embedded systems, providing seamless integration between different components.
 
 - **Computer Vision Models**: The system lies in the AI models for license plate number detection and vehicle classification. These models process the captured images from the embedded systems and provide accurate results for vehicle identification.
+  
+
+## Team Members
+
+- Ahmed Rashed
+- Mina Maher
+- Nourhan Abosaeed
+- Mahmoud Bahaa
+- Ahmed Gamal
+- Ahmed Roshdi
+  
 
 ## Project Documentation and Prototype in Action
 
@@ -26,7 +37,19 @@ The System seamlessly integrates various cutting-edge technologies to create a r
 
 - **Project Documentation**: For more detailed information about the system's development, including AI models, mobile app, backend, and embedded systems, please refer to our [project documentation](https://drive.google.com/file/d/1yGR7fPZQpwTrd-XG2_s_ieb8_UddPjKI/view).
 
+## Computer Vision Pipeline Overview
 
+## Egyptian License Plate Detection
+
+## License Plate Characters Recognition
+
+## Vehicle Type Classification
+
+## Deployment
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 
 
