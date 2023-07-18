@@ -39,6 +39,13 @@ The System seamlessly integrates various cutting-edge technologies to create a r
 
 ## Computer Vision Pipeline Overview
 
+![Pipeline](images/pipline.jpg)
+
+The Computer Vision Pipeline operates as follows: Upon receiving an image captured at the road gates, it goes through 3 models that work together to extract the needed data.
+
+The first model executes a vehicle type classification , efficiently identifying the vehicle's category, such as cars, trucks, motorcycles, and more. This classification is paramount, as the toll calculation depends on the type of vehicle detected.
+
+The second model encompasses two stages: the initial sub-model detects the precise position of the license plate within the image and subsequently crops it for further analysis. Subsequently, the cropped license plate is forwarded to the second sub-model, which employs a detection model to accurately recognize and extract the alphanumeric characters from the plate.
 
 ## Egyptian License Plate Detection
 
