@@ -39,17 +39,24 @@ The System seamlessly integrates various cutting-edge technologies to create a r
 
 ## Computer Vision Pipeline Overview
 
+
 ## Egyptian License Plate Detection
+
 
 ## License Plate Characters Recognition
 
+
 ## Vehicle Type Classification
 
+
 ## Deployment
+
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 
+### Copyrights
 
+>Copyright (c) 2022-2023 Faculty of Computers and Informatics Tanta University 
