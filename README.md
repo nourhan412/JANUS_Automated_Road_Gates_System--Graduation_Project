@@ -20,7 +20,7 @@ The System seamlessly integrates various cutting-edge technologies to create a r
 
 - **Computer Vision Models**: The system lies in the AI models for license plate number detection and vehicle classification. These models process the captured images from the embedded systems and provide accurate results for vehicle identification.
 
-## Project Overview and Maquette Video
+## Project Documentation and Prototype in Action
 
 - **Project Overview Video**: To get an in-depth understanding of the Automated Road Gates System project idea and witness the maquette (prototype) in action, please watch our [project overview video](https://www.youtube.com/watch?v=kQZk_uqAZas).
 
