@@ -39,7 +39,7 @@ The System seamlessly integrates various cutting-edge technologies to create a r
 
 ## Computer Vision Pipeline Overview
 
-![Pipeline](images/pipeline.png)
+![Pipeline Overview](images/pipeline.png)
 
 The Computer Vision Pipeline operates as follows: Upon receiving an image captured at the road gates, it goes through 3 models that work together to extract the needed data.
 
