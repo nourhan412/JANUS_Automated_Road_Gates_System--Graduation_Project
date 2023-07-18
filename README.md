@@ -5,8 +5,8 @@
 ---
 ![Project Maquette](images/maquette.jpg)
 
----
-### Overview
+
+## Overview
 
 Janus Automated Road Gates System is a graduation project that aims to resolve the manual road toll collection issues in Egypt, managed by human workers.
 
