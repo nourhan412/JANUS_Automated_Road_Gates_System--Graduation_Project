@@ -71,15 +71,17 @@ In terms of object detection, the YOLOv7 model delivered impressive results with
 
 ### Vehicle Classification Using License Plate Color
 
-After building different models to classify the images based on the vehicles imaged, we have now shifted our focus to detecting the vehicle type based on the license plate color.
+After building different models to classify the images based on the vehicles imaged, we shifted our focus to detecting the vehicle type based on the license plate color.
 we utilized the same dataset as in the license plate character recognition task, as publicly available datasets specifically focused on license plate color detection in Egyptian vehicles were scarce.
 However, we encountered a challenge with the dataset, as more than 90% of the images depicted license plates with a light blue background, typically used for private cars. This posed a difficulty in training a deep learning classification model to accurately detect different vehicle types based on license plate color.
-To overcome this challenge and improve model accuracy, we experimented with various approaches. One of these approaches involved using Adobe Photoshop to edit license plate colors, creating a more diverse dataset. Additionally, we leveraged the OpenCV library to generate new license plate images with different colors. Moreover, we applied image processing techniques directly to the existing dataset to further enhance its diversity.
-
-The plate character recognition model achieved an impressive accuracy of 95%. While ResNet50 exhibited a respectable test accuracy of 94%. In contrast, YOLOv7 outperformed the other models by accurately classifying the colors of license plates, achieving a remarkable accuracy of 98% on the test set.
+To overcome this challenge and improve model accuracy, we experimented with various approaches. One of these approaches involved using Adobe Photoshop to edit license plate colors, creating a more diverse dataset. Additionally, My teammate leveraged the OpenCV library to generate new license plate images with different colors. Moreover, I applied image processing techniques directly to the existing dataset to further enhance its diversity.
+The plate character recognition model achieved an impressive accuracy of 95% in detecting the color area and accurately classifying the plate colors of vehicles. While ResNet50 exhibited a respectable test accuracy of 94%, YOLOv7 outperformed the other models by accurately classifying the colors of license plates, achieving a remarkable accuracy of 98% on the test set.
 
 ---
 ## Deployment
+
+To make our pipeline accessible to the system's server, we have implemented a Flask RESTful API. This API enables the server to request predictions by sending a POST request containing the vehicle image. Upon receiving the request, the API processes the image using the selected models and returns the predicted results to the server.
+To obtain predictions from the models, we have created specific prediction functions for each of them. These functions take an input image and preprocess it to ensure it is in the required format for accurate predictions by their respective models. The preprocessing step is crucial as it prepares the image data to be compatible with the input requirements of each model, maximizing prediction accuracy.
 
 ---
 ### Copyrights
